@@ -4,7 +4,9 @@ public class Account {
     
     private Integer number;
     private String holder;
+    /*Usar balance na subclasse sem deixar publico */
     protected Double balance;
+
 
     public Account() {
   }
