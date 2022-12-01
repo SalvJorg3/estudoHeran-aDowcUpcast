@@ -1,5 +1,7 @@
 package entities;
 
+/* Acrescentar abstract garante a nível de compilação que
+ a classe Account não possa ser instanciada */
 public class Account {
     
     private Integer number;
